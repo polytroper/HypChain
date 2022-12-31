@@ -22,7 +22,7 @@ const features = [
     title: 'Feeless',
     description:
       "Fees are for suckers. If that's you, please send your fees to bitcoin wallet bc1qapsvmcclrqr4yazzfzr667e4le4f7825q274mn and I will send you back twice as much!!",
-    image: wallet,
+    image: chain4,
   },
   {
     title: 'Decentralized',
