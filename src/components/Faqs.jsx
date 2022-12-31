@@ -37,8 +37,8 @@ export function Faqs() {
             Purchase HypCoin now!
           </h2>
           <p className="mt-4 mb-4 text-lg tracking-tight text-slate-700">
-            To purchase any quantity of HypCoin, send 0.01BTC to the following
-            address. Your HypCoin will be instantly transferred to your wallet!
+            To purchase any quantity of HypCoin, send 0.01BTC to the address
+            below. Your HypCoin will be instantly transferred to your wallet!
           </p>
           <Image src={wallet} alt="HypCoin Address" width={500} height={500} />
           <p className="mt-4">
