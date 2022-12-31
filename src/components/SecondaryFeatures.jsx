@@ -234,7 +234,7 @@ export function SecondaryFeatures() {
           <p className="mt-4 text-lg tracking-tight text-slate-100">
             Traditionally, it takes time for an investment's worthlessness to
             become apparent. HypCoin is different: it's obviously worthless from
-            the start. This enables dramatic efficiency gains.
+            the start. This is key to HypChain's unique efficiency.
           </p>
         </div>
         <FeaturesMobile />
