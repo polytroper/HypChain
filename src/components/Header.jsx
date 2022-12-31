@@ -98,7 +98,7 @@ export function Header() {
             <Link
               href="#"
               aria-label="Home"
-              className="flex text-2xl font-bold text-slate-50"
+              className="flex text-2xl font-bold text-orange-500"
             >
               Hyp<div className="text-sky-400">Chain</div>
             </Link>
@@ -109,12 +109,9 @@ export function Header() {
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
-            <div className="hidden md:block">
-              <NavLink href="/login">Sign in</NavLink>
-            </div>
-            <Button href="/register" color="blue">
+            <Button href="#buy" color="blue">
               <span>
-                Get started <span className="hidden lg:inline">today</span>
+                Buy HypCoin <span className="hidden lg:inline">today</span>
               </span>
             </Button>
             <div className="-mr-1 md:hidden">

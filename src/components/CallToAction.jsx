@@ -21,14 +21,15 @@ export function CallToAction() {
       <Container className="relative">
         <div className="mx-auto max-w-lg text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-            Get started today
+            Beat the pants off your competition.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
-            It’s time to take control of your books. Buy our software so you can
-            feel like you’re doing something productive.
+            They'll never see it coming. You can't see hypothetical things
+            because that's impossible. Your competition will be lying there,
+            pantsless, shivering, wondering to themselves "how did this happen?"
           </p>
-          <Button href="/register" color="white" className="mt-10">
-            Get 6 months free
+          <Button href="#buy" color="white" className="mt-10">
+            Get your first HypCoin
           </Button>
         </div>
       </Container>

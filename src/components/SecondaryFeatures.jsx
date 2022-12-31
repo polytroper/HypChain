@@ -4,17 +4,22 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import woman1 from '@/images/art/woman1.png'
-import woman2 from '@/images/art/woman2.png'
-import woman3 from '@/images/art/woman3.png'
+import screen1 from '@/images/art/screen1.png'
+import screen2 from '@/images/art/screen2.png'
+import screen3 from '@/images/art/screen3.png'
 
 const features = [
   {
-    name: 'Reporting',
-    summary: 'Stay on top of things with always up-to-date reporting features.',
-    description:
-      'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
-    image: woman1,
+    name: 'Zero-Knowledge',
+    summary: 'Prove your lack of knowledge.',
+    description: (
+      <>
+        ZK technology has been around for a while, but we're confident you don't
+        actually know what it is. Neither do we. That's <i>true</i>{' '}
+        zero-knowledge.
+      </>
+    ),
+    image: screen1,
     icon: function ReportingIcon() {
       let id = useId()
       return (
@@ -44,12 +49,16 @@ const features = [
     },
   },
   {
-    name: 'ZKP',
-    summary:
-      'Never lose track of what’s in stock with accurate inventory tracking.',
-    description:
-      'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
-    image: woman2,
+    name: 'Rull Good Security',
+    summary: 'Never feel insecure again.',
+    description: (
+      <>
+        HypCoin holders have a certain swagger. People might call your gait
+        "jaunty" or some similarly fun word. At least, hypothetically they
+        could.
+      </>
+    ),
+    image: screen2,
     icon: function InventoryIcon() {
       return (
         <>
@@ -72,12 +81,15 @@ const features = [
     },
   },
   {
-    name: 'Contacts',
-    summary:
-      'Organize all of your contacts, service providers, and invoices in one place.',
-    description:
-      'This also isn’t actually a feature, it’s just some friendly advice. We definitely recommend that you do this, you’ll feel really organized and professional.',
-    image: woman3,
+    name: 'Smart Contracts',
+    summary: 'Very popular these days.',
+    description: (
+      <>
+        It seems like everyone's doing them now. We could be, too! There's
+        nothing physically preventing it, anyway.
+      </>
+    ),
+    image: screen3,
     icon: function ContactsIcon() {
       return (
         <>
@@ -135,7 +147,7 @@ function FeaturesMobile() {
         <div key={feature.name}>
           <Feature feature={feature} className="mx-auto max-w-2xl" isActive />
           <div className="relative mt-10 pb-10">
-            <div className="absolute -inset-x-4 bottom-0 top-8 bg-slate-200 sm:-inset-x-6" />
+            <div className="absolute -inset-x-4 bottom-0 top-8 bg-slate-900 sm:-inset-x-6" />
             <div className="relative mx-auto w-[52.75rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
               <Image
                 className="w-full"
@@ -174,7 +186,7 @@ function FeaturesDesktop() {
               />
             ))}
           </Tab.List>
-          <Tab.Panels className="relative mt-20 overflow-hidden rounded-4xl bg-slate-200 px-14 py-16 xl:px-16">
+          <Tab.Panels className="relative mt-20 overflow-hidden rounded-4xl bg-slate-800 px-14 py-16 xl:px-16">
             <div className="-mx-5 flex">
               {features.map((feature, featureIndex) => (
                 <Tab.Panel
@@ -216,12 +228,13 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-4xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-50 sm:text-4xl">
-            Beat the pants off your competition.
+            The premier purpose-built{' '}
+            <span className="font-bold text-orange-500">futility coin</span>
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-100">
-            They'll never see it coming. You can't see hypothetical things
-            because that's impossible. Your competition will be lying there,
-            pantsless, shivering, wondering to themselves "how did this happen?"
+            Traditionally, it takes time for an investment's worthlessness to
+            become apparent. HypCoin is different: it's obviously worthless from
+            the start. This enables dramatic efficiency gains.
           </p>
         </div>
         <FeaturesMobile />

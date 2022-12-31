@@ -1,70 +1,65 @@
 import Image from 'next/image'
 
 import { Container } from '@/components/Container'
-import avatarImage1 from '@/images/avatars/avatar-1.png'
-import avatarImage2 from '@/images/avatars/avatar-2.png'
-import avatarImage3 from '@/images/avatars/avatar-3.png'
-import avatarImage4 from '@/images/avatars/avatar-4.png'
-import avatarImage5 from '@/images/avatars/avatar-5.png'
+import avatarImage1 from '@/images/art/woman1.png'
+import avatarImage2 from '@/images/art/woman2.png'
+import avatarImage3 from '@/images/art/woman3.png'
+import avatarImage4 from '@/images/art/woman4.png'
+import avatarImage5 from '@/images/art/woman5.png'
+import avatarImage6 from '@/images/art/woman6.png'
 
 const testimonials = [
   [
     {
-      content:
-        'TaxPal is so easy to use I can’t help but wonder if it’s really doing the things the government expects me to do.',
+      content: 'If you think about it, dollars are pretty hypothetical too.',
       author: {
-        name: 'Sheryl Berge',
-        role: 'CEO at Lynch LLC',
+        name: 'Christopher G. Cavoli',
+        role: 'Supreme Allied Commander of the HypChain Army',
         image: avatarImage1,
       },
     },
     {
-      content:
-        'I’m trying to get a hold of someone in support, I’m in a lot of trouble right now and they are saying it has something to do with my books. Please get back to me right away.',
+      content: 'If Pioneer Aviation is on board, I am too!',
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
+        name: 'Frank Burns',
+        role: 'Fink',
         image: avatarImage4,
       },
     },
   ],
   [
     {
-      content:
-        'The best part about TaxPal is every time I pay my employees, my bank balance doesn’t go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined.',
+      content: "There's no way this is a scam. I'm in.",
       author: {
-        name: 'Leland Kiehn',
-        role: 'Founder of Kiehn and Sons',
+        name: 'Condoleezza Rice',
+        role: 'Artist-in-Residence at RAND Corporation',
         image: avatarImage5,
       },
     },
     {
-      content:
-        'There are so many things I had to do with my old software that I just don’t do at all with TaxPal. Suspicious but I can’t say I don’t love it.',
+      content: 'I officially endorse this very good product, I think.',
       author: {
-        name: 'Erin Powlowski',
-        role: 'COO at Armstrong Inc',
+        name: 'Zach Latta',
+        role: 'Founder of Hack Club',
         image: avatarImage2,
       },
     },
   ],
   [
     {
-      content:
-        'I used to have to remit tax to the EU and with TaxPal I somehow don’t have to do that anymore. Nervous to travel there now though.',
+      content: "Damn, why didn't I think of this?",
       author: {
-        name: 'Peter Renolds',
-        role: 'Founder of West Inc',
+        name: 'Sam Bankman-Fried',
+        role: 'Visionary',
         image: avatarImage3,
       },
     },
     {
-      content:
-        'This is the fourth email I’ve sent to your support team. I am literally being held in jail for tax fraud. Please answer your damn emails, this is important.',
+      content: 'Who are you? How did you get in my house?',
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
-        image: avatarImage4,
+        name: 'Steve Jobs',
+        role: 'Pretending to be dead',
+        image: avatarImage6,
       },
     },
   ],
@@ -88,12 +83,12 @@ export function Testimonials() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Loved by businesses worldwide.
+            Hypothetically used by millions.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Our software is so simple that people can’t help but fall in love
-            with it. Simplicity is easy when you just skip tons of
-            mission-critical features.
+            It's completely possible that billions or even trillions of people
+            have used the HypChain. We really have no way of knowing. Here are
+            some things they could have potentially said:
           </p>
         </div>
         <ul

@@ -79,16 +79,16 @@ export function PrimaryFeatures() {
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-4xl">
             <div>Infinite scalability powered by</div>
             <div>
-              <span className="font-bold text-orange-400">
+              <span className="font-bold text-orange-500">
                 Proof-of-Nothing
               </span>{' '}
               technology.
             </div>
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            HypChain's "no promises" consensus mechanism neatly sidesteps the
-            hardest problems faced by other chains, unlocking unprecedented
-            hypothetical performance.
+            HypChain's "no promises" architecture neatly sidesteps hard problems
+            like achieving consensus, unlocking unprecedented hypothetical
+            performance.
           </p>
         </div>
         <Tab.Group
